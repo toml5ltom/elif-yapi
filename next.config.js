@@ -2,6 +2,7 @@
 const withNextIntl = require("next-intl/plugin")("./i18n/config.ts");
 
 const nextConfig = {
+  output: "standalone",
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "res.cloudinary.com" },
